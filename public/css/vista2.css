@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width: 100%;
+    background: #222222;
+}
+/*==============HEADER================*/
+
+.cabeza{
+    background-color: black;
+    background: linear-gradient(0deg,rgba(0,0,0),rgba(0,0,0));
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    margin-top: 25px;
+}
+/*==============LOGO================*/
+.logo{
+    width: 30%;
+    padding-left: 150px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo img{
+    width: 160px;
+    height: auto;
+}
+/*==============NAV================*/
+.navegacion{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+.link{
+    color: #fff;
+    padding: 5px 20px 5px;
+    text-decoration: none;
+    font-size: 24px;
+    border:1px solid transparent;
+    transition: 0.8s ease;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.link:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.container4
+{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card
+{
+    background-color: #c3bebe;
+    width: 450px;
+    height: 500px;
+    margin: 15px;
+    border-color: #fff;
+    border-radius: 15px;
+}
+.card:hover
+{
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    text-decoration: none;
+}
+.card-image
+{
+    background-color: aliceblue;
+    height: 350px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card h2
+{
+    text-align: center;
+    color: crimson;
+    font-size: 25px;
+}
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+.card a{
+    background-color: cadetblue;
+    padding: 15px 20px;
+    text-align: center;
+    color: #222222;
+    display: block;
+    margin: 20px 50px;
+    border-radius: 15px
+}
+.card a:hover{
+    background-color: rgb(234, 113, 38);
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 20px 50px;
+    border-radius: 15px
+}
+.card-1{
+    background-image: url(../imagenes-menu/hamburguesa4.jpg);
+}
+.card-2{
+    background-image: url(../imagenes-menu/hamburguesa5.jpg);
+}
+.card-3{
+    background-image: url(../imagenes-menu/hamburguesa1.jpg);
+}
+/*=============TEXTO DEBAJO DEL HEADER================*/
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.texto{
+    width: 100%;
+    display:flow-root ;
+    padding: 100px;
+    color: #fff;
+}
+
+.texto h1{
+    font-size: 70px;
+}
+
+.texto p{
+    font-size: 40px;
+    margin: 20px 0 75px 0;
+}
+
+.texto a{
+    background-color: cadetblue;
+    padding:20px 0;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius:40px;
+    color: #fff;
+}
+.texto a:hover{
+    background-color: #fff;
+    padding:20px 0;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius:40px;
+    color:cadetblue;
+}
+
+/*=========FOOTER============*/
+footer{
+    display: contents;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222222;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0 3px 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    font-size: 20px;
+    transition: color .5s ease;
+}
+.social a:hover i{
+    color: cadetblue;
+}
+.footer-texto{
+    background: #222222;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-texto p{
+    font-size: 20px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
+

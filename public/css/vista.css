@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width: 100%;
+    background: #222222;
+}
+/*==============HEADER================*/
+
+.cabeza{
+    background-color: black;
+    background: linear-gradient(0deg,rgba(0,0,0),rgba(0,0,0));
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    margin-top: 25px;
+}
+/*==============LOGO================*/
+.logo{
+    width: 30%;
+    padding-left: 150px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo img{
+    width: 160px;
+    height: 200px;
+}
+/*==============NAV================*/
+.navegacion{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+.link{
+    color: #fff;
+    padding: 5px 20px 5px;
+    text-decoration: none;
+    font-size: 24px;
+    border:1px solid transparent;
+    transition: 0.8s ease;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.link:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/*========CARRITO DE COMPRAS================*/
+
+.carrito{
+    width: 15%;
+    padding-right: 150px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.carrito img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../img1/fondo-burguer1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    width: 100%;
+}
+
+
+/*=============TEXTO DEBAJO DEL HEADER================*/
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.texto{
+    width: 100%;
+    display:flow-root ;
+    padding: 100px;
+    color: #fff;
+}
+
+.texto h1{
+    font-size: 70px;
+}
+
+.texto p{
+    font-size: 40px;
+    margin: 20px 0 75px 0;
+}
+
+.texto a{
+    background-color: cadetblue;
+    padding:20px 0;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius:40px;
+    color: #fff;
+}
+.texto a:hover{
+    background-color: #fff;
+    padding:20px 0;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius:40px;
+    color:cadetblue;
+}
+
+/*=========FOOTER============*/
+footer{
+    display: contents;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222222;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #fff;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0 3px 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    font-size: 20px;
+    transition: color .5s ease;
+}
+.social a:hover i{
+    color: cadetblue;
+}
+.footer-texto{
+    background: #222222;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-texto p{
+    font-size: 20px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,49 @@
+
+
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+
+table{
+    background-color: #692b2b;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    height: 1000px;
+}
+th,td{
+    padding: 10px;
+    color: white;
+}
+
+td .izquierda{
+    text-align: left;
+}
+
+thead{
+    background-color: #333;
+    border-bottom: solid 5px black;
+    color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even){
+    background-color: #222222;
+}
+tr{
+    color: black;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: rgb(0, 0, 0);
+}
+
+tr a{
+    color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
