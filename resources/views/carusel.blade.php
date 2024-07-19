@@ -269,7 +269,7 @@
               <div class="tranding-slide-content">
                 <div class="tranding-slide-content-bottom">
                   <h2 class="food-name">
-                    h1
+                    pay 69
                   </h2>
                   <h3 class="food-rating">
                     <span>12</span>
